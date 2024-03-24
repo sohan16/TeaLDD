@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "109862838572",
+    "project_id": "tealdd-8b63d",
+    "storage_bucket": "tealdd-8b63d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109862838572:android:9363349263b0ae1a65cc89",
+        "android_client_info": {
+          "package_name": "com.example.tealdd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109862838572-v83a7hhil823odka9qsje6a2e0vgdi2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tealdd",
+            "certificate_hash": "b9ac4d162ef95b1a84085f68d32b285225f329bb"
+          }
+        },
+        {
+          "client_id": "109862838572-6u5bgk9v4o7th6nt8uecsjl3cja72jk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIixbg2dPCRdvftxH5qaKoNeMMul09gFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109862838572-6u5bgk9v4o7th6nt8uecsjl3cja72jk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

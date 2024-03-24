@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TeaLDD</string>
     <string name="title_home">Home</string>
     <string name="title_scan">Scan</string>
@@ -17,5 +17,15 @@
     <string name="register">Register</string>
     <string name="login">LogIn</string>
     <string name="logo_description">Tea Health Checker Logo</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already Have an Account</string>
+    <string name="password">Password\n</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t Have an Account</string>
+    <string name="client_id" tools:ignore="TypographyDashes">109862838572-6u5bgk9v4o7th6nt8uecsjl3cja72jk4.apps.googleusercontent.com</string>
+
 
 </resources>

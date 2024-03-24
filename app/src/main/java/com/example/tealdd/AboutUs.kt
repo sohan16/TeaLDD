@@ -3,10 +3,8 @@ package com.example.tealdd
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.webkit.WebChromeClient
-import android.webkit.WebSettings
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.gms.maps.SupportMapFragment
 
 
 class AboutUs : AppCompatActivity() {
@@ -25,15 +23,10 @@ class AboutUs : AppCompatActivity() {
         youtubeWebView.settings.useWideViewPort = true
         WebView.setWebContentsDebuggingEnabled(true)
 
-
         youtubeWebView.webChromeClient = WebChromeClient()
-
         youtubeWebView.clearCache(true)
         youtubeWebView.reload()
-
         youtubeWebView.loadDataWithBaseURL("https://www.youtube.com/embed/sA8gUU2NJoc", "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/sA8gUU2NJoc\" frameborder=\"0\" allowfullscreen></iframe>", "text/html", "utf-8", null)
-
-
 
         // Initialize Google Map
        // val mapFragment = supportFragmentManager.findFragmentById(R.id.googleMapFragment) as SupportMapFragment
